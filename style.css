@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.visible{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+body {
+    background-color: rgb(20, 21, 25);
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+
+.container-1 {
+    max-width: 360px;
+    background-color: rgb(29, 36, 46);
+    padding: 30px;
+    margin: 100px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* display: visible; */
+
+}
+
+.container-1 img {
+    width: 2.5rem;
+    background-color: rgb(39, 46, 56);
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.rating {
+    display: flex;
+    gap: 1em;
+    align-items: flex-start;
+    justify-content: center;
+
+
+}
+
+.rating span {
+    background-color: rgb(38, 47, 56);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.rating span:hover {
+    color: black;
+    background-color: rgb(252, 118, 19);
+}
+
+.btn {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(252, 118, 19);
+    padding: 0.7em;
+    border-radius: 3em;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+
+
+/* styles for container-2  */
+.container-2 {
+    max-width: 360px;
+    background-color: rgb(29, 36, 46);
+    padding: 30px;
+    margin: 100px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    /* display: none; */
+    /* display: visible; */
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+.container-2 img {
+    max-width: 50%;
+
+}
+
+.container-2 h4 {
+
+    background-color: rgb(38, 46, 56);
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 2em;
+    color: rgb(252, 118, 19);
+}
+
+.container-2 p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+
